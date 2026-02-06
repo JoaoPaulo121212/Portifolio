@@ -1,0 +1,76 @@
+@media (max-width: 1200px) {
+    main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    main .main-content .text, .techs {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .main-content .text p {
+        width: 90%; 
+        font-size: 1em; 
+    }
+
+    main .techs .cards-container {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 15px; 
+    }
+    
+    main .techs .cards-container .card {
+        margin-bottom: 15px; 
+    }
+
+    main .techs .cards-container, .main-content .text p {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+    header nav {
+        margin-top: 24px;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    header nav a {
+        font-size: 1.2em; 
+        margin: 0 10px;
+    }
+
+    main .techs .cards-container .card {
+        width: 70px; 
+        height: 70px;
+    }
+
+    main .main-content .text h2, .main-content .techs h2 {
+        font-size: 1.5em;
+    }
+    
+    main figure img {
+        width: 250px;
+        height: 250px;
+    }
+}
