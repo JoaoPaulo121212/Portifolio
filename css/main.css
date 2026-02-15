@@ -9,6 +9,9 @@ main{
 main .main-content{
     display: flex;
     flex-direction: column;
+
+    width: 60%;
+    min-width: 300px;
 }
 
 main .main-content h2{
