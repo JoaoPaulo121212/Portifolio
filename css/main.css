@@ -32,6 +32,9 @@ main .main-content .text p{
 main .techs .cards-container{
     display: flex;
     align-items: center;
+    /* Permite que os itens quebrem para a linha de baixo */
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 main .techs .cards-container .card{
@@ -43,6 +46,9 @@ main .techs .cards-container .card{
     border-radius: 8px;
     margin-right: 0.9em;
     margin-left: 0.9em;
+    /* Da espaço entre as linhas de cima e as linhas de baixo */
+    margin-bottom: 20px;
+    
     cursor: pointer;
 
     display: flex;
